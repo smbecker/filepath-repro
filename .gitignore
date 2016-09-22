@@ -1,0 +1,11 @@
+bin/
+obj/
+*.userprefs
+*.suo
+test-results
+packages/
+*.user
+.vs/
+.vscode/
+artifacts/
+*.lock.json

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "debugType": "portable",
+    "emitEntryPoint": true
+  },
+  "frameworks": {
+    "net451": {},
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": "1.0.0",
+        "System.IO.FileSystem": "4.0.1"
+      },
+      "imports": "dotnet"
+    }
+  },
+  "runtimes": {
+    "win7-x64": {}
+  }
+}
